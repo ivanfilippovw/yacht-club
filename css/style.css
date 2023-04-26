@@ -1,4 +1,4 @@
-body {
+.page {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -6,7 +6,7 @@ body {
   background: #FDFDFF;
 }
 
-.main-header a {
+.site-navigation__link {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -14,7 +14,7 @@ body {
   color: #163152;
 }
 
-h1 {
+.hero__title {
   font-style: italic;
   font-weight: 400;
   font-size: 44px;
@@ -22,13 +22,13 @@ h1 {
   text-transform: uppercase;
 }
 
-.blog-article-date {
+.blog-article__date {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
-article h2 {
+.blog-article__title {
   font-size: 24px;
   line-height: 34px;
   text-decoration: underline;
@@ -38,7 +38,7 @@ article h2 {
   text-underline-position: under;
 }
 
-.news h2 {
+.news__title {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
@@ -49,37 +49,37 @@ article h2 {
   text-underline-position: under;
 }
 
-.post figcaption {
+.news-post__img-title {
   font-size: 16px;
   line-height: 19px;
   color: #8693a4;
 }
 
-.post h3 {
+.news-post__title {
   font-size: 22px;
   line-height: 26px;
 }
 
-.post p {
+.news-post__text {
   font-size: 18px;
   line-height: 26px;
 }
 
-.post h4 {
+.news-post__teams-list-title {
   font-size: 20px;
   line-height: 26px;
 }
 
-.teams-members {
+.members-list__item {
   font-size: 18px;
   line-height: 26px;
 }
 
-.post ins {
+.news-post__text_decoration_none {
   text-decoration: none;
 }
 
-.post blockquote {
+.news-post__quote {
   font-weight: 700;
   font-size: 26px;
   line-height: 36px;
@@ -91,7 +91,7 @@ article h2 {
   text-underline-position: left; */
 }
 
-.post-meta a {
+.news-footer__meta-link {
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
@@ -99,13 +99,13 @@ article h2 {
   color: #163152;
 }
 
-.post-meta time {
+.news-footer__meta-time {
   font-size: 16px;
   line-height: 19px;
   color: #8693A4;
 }
 
-.contacts h2 {
+.contacts__title {
   font-size: 24px;
   line-height: 34px;
   text-decoration: underline;
@@ -115,21 +115,21 @@ article h2 {
   text-underline-position: under;
 }
 
-.contact-item {
+.contacts__item {
   font-size: 16px;
   line-height: 22px;
 }
 
-.contacts h3 {
+.contacts__item-title {
   font-size: 16px;
   line-height: 22px;
 }
 
-address {
+.contacts__address{
   font-style: normal;
 }
 
-.contacts a {
+.contacts__link {
   text-decoration: none;
   color: #163152;
 }
@@ -139,21 +139,21 @@ address {
   line-height: 12px;
 }
 
-.main-footer .policy a {
+.main-footer__policy-link {
   font-size: 10px;
   line-height: 12px;
   text-decoration: none;
   color: #163152;
 }
 
-.contacts .footer-navigation-topic {
+.footer-navigation-topics__item {
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
-.footer-navigation-item > a {
+.footer-navigation__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
