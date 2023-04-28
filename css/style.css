@@ -1,4 +1,4 @@
-.page {
+body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -6,7 +6,7 @@
   background: #FDFDFF;
 }
 
-.site-navigation__link {
+.header__navigation-link {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -134,26 +134,26 @@
   color: #163152;
 }
 
-.main-footer {
+.footer {
   font-size: 10px;
   line-height: 12px;
 }
 
-.main-footer__policy-link {
+.footer__policy-link {
   font-size: 10px;
   line-height: 12px;
   text-decoration: none;
   color: #163152;
 }
 
-.footer-navigation-topics__item {
+.footer__navigation-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
-.footer-navigation__link {
+.footer__navigation-sub-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
