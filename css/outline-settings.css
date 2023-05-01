@@ -12,3 +12,8 @@
 .footer-navigation-topics {
   --outline-4-enabled: 1;
 }
+
+.gallery {
+  --outline-4-enabled: 1;
+  --outline-5-enabled: 1;
+}
