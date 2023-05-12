@@ -9,7 +9,7 @@ body {
   background: #FDFDFF;
 }
 
-/* <!-- test row --> */
+
 
 
 
@@ -70,7 +70,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 36px;
   height: 36px;
 
@@ -89,7 +88,8 @@ body {
 
 
 
-/* Первая секция hero */
+
+/* Секция hero */
 
 .content {
   width: 1170px;
@@ -121,7 +121,7 @@ body {
 
 
 
-/* Вторая секция Статьи */
+/* секция Статьи */
 
 .blog-article {
   display: flex;
@@ -246,8 +246,8 @@ body {
 
 .rent__list {
   margin: 0;
-  margin-left: 18px;
   padding: 0;
+  list-style: none;
 }
 
 .rent__item {
@@ -258,13 +258,23 @@ body {
   color: #163152;
 }
 
+.rent__item::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #163152;
+  margin-right: 10px;
+}
+
 .rent__price {
   display: flex;
   justify-content: space-between;
 
   margin: 0;
   margin-top: 29px;
-  
+
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
@@ -326,9 +336,9 @@ body {
 .gallery__item {
   display: flex;
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
   list-style: none;
-  margin-bottom: 30px;
 }
 
 .gallery__item:last-child {
@@ -356,6 +366,7 @@ body {
 .gallery__img {
   display: block;
 }
+
 
 
 
@@ -429,15 +440,26 @@ ins {
   margin: 0;
   margin-bottom: 30px;
   padding: 0;
+  list-style: none;
 }
 
 .members-list__item {
   margin-top: 8px;
   margin-bottom: 8px;
-  margin-left: 19px;
+  /* margin-left: 19px; */
 
   font-size: 18px;
   line-height: 26px;
+}
+
+.members-list__item::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #163152;
+  margin-right: 10px;
 }
 
 .news-post__text_decoration_none {
