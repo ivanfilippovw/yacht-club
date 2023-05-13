@@ -19,82 +19,88 @@
 
   <body>
     <header class="header">
-
-      <nav class="header__navigation">
-        <a class="header__logo logo" href="#">
-          <img class="logo__header-img" src="img/logo.svg" width="64" height="68" alt="Логотип яхт-клуба Yacht Club">
-        </a>
-        <ul class="header__navigation-list">
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">Наш клуб</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">Регаты</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">Команда</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">Обучение</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">Новости</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">Контакты</a>
-          </li>
-        </ul>
-        <a class="header__login login" href="#">
-          <img class="login__img" src="img/icon.svg" width="16" height="18" alt="Вход в личный кабинет">
-        </a>
-      </nav>
-
+      <div class="header__container container">
+        <nav class="header__navigation">
+          <a class="header__logo logo" href="#">
+            <img class="logo__img" src="img/logo.svg" width="64" height="68" alt="Логотип яхт-клуба Yacht Club" loading="lazy">
+          </a>
+          <ul class="header__navigation-list">
+            <li class="header__navigation-item">
+              <a class="header__navigation-link" href="#">Наш клуб</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link" href="#">Регаты</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link" href="#">Команда</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link" href="#">Обучение</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link" href="#">Новости</a>
+            </li>
+            <li class="header__navigation-item">
+              <a class="header__navigation-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <a class="header__login login-btn" href="#">
+            <img class="login-btn__img" src="img/icon.svg" width="16" height="18" alt="Вход в личный кабинет" loading="lazy">
+          </a>
+        </nav>
+      </div>
     </header>
 
 
 
-    <main class="content">
+    <main class="content container">
 
       <section class="hero">
         <h1 class="hero__title">
           Вместе под парусом
         </h1>
-        <img class="hero__img" src="img/main-photo.jpg" width="1170" height="466" alt="Фото яхты клуба на закате">
+        <img class="hero__img" src="img/main-photo.jpg" width="1170" height="466" alt="Фото яхты клуба на закате" loading="lazy">
       </section>
 
 
 
-      <article class="blog-article blog-article-1">
-        <div class="blog-article__text-wrapper">
-          <p class="blog-article__date">
-            <time class="blog-article__time" datetime="2021-10-20">20 октября</time> - <time class="blog-article__time" datetime="2021-04-19">19 апреля</time>
-          </p>
-          <h2 class="blog-article__title">
-            Стань частью команды
-          </h2>
-          <p class="blog-article__text">
-            Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
-          </p>
-        </div>
-        <img class="blog-article__img" src="img/photo1.jpg" width="600" height="262" alt="Мужчина на яхте смотрит в бинокль">
-      </article>
+      <section class="blog-article-section">
+        <article class="blog-article blog-article-first">
+          <div class="blog-article__text-wrapper">
+            <p class="blog-article__date">
+              <time class="blog-article__time" datetime="2021-10-20">20 октября</time> - <time class="blog-article__time" datetime="2021-04-19">19 апреля</time>
+            </p>
+            <h2 class="blog-article__title">
+              Стань частью команды
+            </h2>
+            <div class="blog-article__text">
+              <p>
+                Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
+              </p>
+            </div>
+          </div>
+          <img class="blog-article__img" src="img/photo1.jpg" width="600" height="262" alt="Мужчина на яхте смотрит в бинокль" loading="lazy">
+        </article>
 
 
 
-      <article class="blog-article blog-article-2">
-        <div class="blog-article__text-wrapper">
-          <p class="blog-article__date">
-            <time class="blog-article__time" datetime="2021-07-16">16 июля</time> - <time class="blog-article__time" datetime="2021-07-23">23 июля</time>
-          </p>
-          <h2 class="blog-article__title">
-            Рожденные в воде
-          </h2>
-          <p class="blog-article__text">
-            Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
-          </p>
-        </div>
-        <img class="blog-article__img" src="img/photo2.jpg" width="600" height="252" alt="Дети и взрослые на яхте">
-      </article>
+        <article class="blog-article blog-article_row-reverse">
+          <div class="blog-article__text-wrapper">
+            <p class="blog-article__date">
+              <time class="blog-article__time" datetime="2021-07-16">16 июля</time> - <time class="blog-article__time" datetime="2021-07-23">23 июля</time>
+            </p>
+            <h2 class="blog-article__title">
+              Рожденные в воде
+            </h2>
+            <div class="blog-article__text">
+              <p>
+                Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
+              </p>
+            </div>
+          </div>
+          <img class="blog-article__img" src="img/photo2.jpg" width="600" height="252" alt="Дети и взрослые на яхте" loading="lazy">
+        </article>
+      </section>
 
 
 
@@ -104,7 +110,7 @@
         </h2>
         <div class="rent__container">
           <div class="rent__card">
-            <img src="img/rent-photo-1.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img">
+            <img src="img/rent-photo-1.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img" loading="lazy">
             <h3 class="rent__card-title">Катер Meridian 401</h3>
             <p class="rent__text">Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью 11 человек</p>
             <ul class="rent__list">
@@ -120,7 +126,7 @@
             </div>
           </div>
           <div class="rent__card">
-            <img src="img/rent-photo-2.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img">
+            <img src="img/rent-photo-2.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img" loading="lazy">
             <h3 class="rent__card-title">Катер 60 Manhattan</h3>
             <p class="rent__text">Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10 человек</p>
             <ul class="rent__list">
@@ -136,7 +142,7 @@
             </div>
           </div>
           <div class="rent__card">
-            <img src="img/rent-photo-3.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img">
+            <img src="img/rent-photo-3.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img" loading="lazy">
             <h3 class="rent__card-title">Катер Starfisher 34</h3>
             <p class="rent__text">Моторная яхта длиной 11 метров
               и вместимостью до 8 человек</p>
@@ -153,7 +159,7 @@
             </div>
           </div>
           <div class="rent__card">
-            <img src="img/rent-photo-4.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img">
+            <img src="img/rent-photo-4.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img" loading="lazy">
             <h3 class="rent__card-title">Катер Pacific 7-13</h3>
             <p class="rent__text">Катер Pacific длиной 12 метров и шириной 4.6 метра, вместимостью 8 человек</p>
             <ul class="rent__list">
@@ -169,7 +175,7 @@
             </div>
           </div>
           <div class="rent__card">
-            <img src="img/rent-photo-5.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img">
+            <img src="img/rent-photo-5.jpg" width="316" height="141" alt="Фото яхты" class="rent__card-img" loading="lazy">
             <h3 class="rent__card-title">Катер Atlantic 3000</h3>
             <p class="rent__text">Катер Atlantic длиной 14 метров
               и вместимостью до 6 человек</p>
@@ -194,26 +200,26 @@
             Галерея
           </h2>
           <div class="gallery__wrapper">
-            <img src="img/gallery-1.jpg" alt="Небольшая яхта в море недалко от берега" class="gallery__active-img" width="970" height="690">
+            <img src="img/gallery-1.jpg" alt="Небольшая яхта в море недалко от берега" class="gallery__active-img" width="970" height="690" loading="lazy">
             <ul class="gallery__list">
               <li class="gallery__item">
                 <a href="#" class="gallery__link">
-                  <img src="img/gallery-2.jpg" alt="Мыс дорогой яхты на фоне моря и гор" class="gallery__img" width="170" height="150">
+                  <img src="img/gallery-2.jpg" alt="Мыс дорогой яхты на фоне моря и гор" class="gallery__img" width="170" height="150" loading="lazy">
                 </a>
               </li>
               <li class="gallery__item">
                 <a href="#" class="gallery__link">
-                  <img src="img/gallery-3.jpg" alt="Мыс яхты на фоне воды моря" class="gallery__img" width="170" height="150">
+                  <img src="img/gallery-3.jpg" alt="Мыс яхты на фоне воды моря" class="gallery__img" width="170" height="150" loading="lazy">
                 </a>
               </li>
               <li class="gallery__item">
                 <a href="#" class="gallery__link">
-                  <img src="img/gallery-4.jpg" alt="Двое мужчин на яхте" class="gallery__img" width="170" height="150">
+                  <img src="img/gallery-4.jpg" alt="Двое мужчин на яхте" class="gallery__img" width="170" height="150" loading="lazy">
                 </a>
               </li>
               <li class="gallery__item">
                 <a href="#" class="gallery__link gallery__link_active">
-                  <img src="img/gallery-5.jpg" alt="Яхта в море" class="gallery__img" width="170" height="150">
+                  <img src="img/gallery-5.jpg" alt="Яхта в море" class="gallery__img" width="170" height="150" loading="lazy">
                 </a>
               </li>
             </ul>
@@ -226,7 +232,7 @@
         <h2 class="news__title">Новости</h2>
         <article class="news-post">
           <figure class="news-post__img-wrapper">
-            <img class="news-post__img" src="img/winner.jpg" alt="Человек в форме моряка на морском судне" width="770" height="301">
+            <img class="news-post__img" src="img/winner.jpg" alt="Человек в форме моряка на морском судне" width="770" height="301" loading="lazy">
             <figcaption class="news-post__img-title">Победитель регаты шкипер Иван Кулешов</figcaption>
           </figure>
           <h3 class="news-post__title">Итоги регаты Sochi Race Week 2020</h3>
@@ -252,7 +258,10 @@
               <time class="news-footer__meta-time" datetime="2021-06-20">20.06.2021</time>
             </p>
             <a class="news-footer__share" href="#">
-              <img class="news-footer__share-img" src="img/share_icon.svg" width="26" height="26" alt="Поделиться">
+              <!-- <img class="news-footer__share-img" src="img/share_icon.svg" width="26" height="26" alt="Поделиться" loading="lazy"> -->
+              <svg class="news-footer__share-img" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6829 14.8824H10.1463C8.06583 14.8815 6.02468 15.461 4.24355 16.5581C2.46241 17.6552 1.00906 19.2282 0.0405871 21.1071C0.0133652 20.7583 -0.000174115 20.4086 1.69014e-06 20.0588C1.69014e-06 12.9114 5.67815 7.11765 12.6829 7.11765V0L26 11L12.6829 22V14.8824ZM10.1463 12.2941H15.2195V16.5751L21.9681 11L15.2195 5.42494V9.70588H12.6829C11.2247 9.70421 9.78335 10.024 8.45747 10.6434C7.13159 11.2627 5.9525 12.1671 5.00088 13.2945C6.63865 12.6322 8.38464 12.2927 10.1463 12.2941Z" fill="#163152"/>
+              </svg>
             </a>
           </footer>
         </article>
@@ -261,7 +270,7 @@
 
 
       <section class="contacts">
-        <div class="contacts__text-wrapper">
+        <address class="contacts__text-wrapper">
           <h2 class="contacts__title">
             Контакты
           </h2>
@@ -283,24 +292,25 @@
               <ul class="social-list">
                 <li class="social-list__item">
                   <a href="#" class="social-list__link">
-                    <img class="social-list__img" src="img/facebook.svg" width="9" height="16" alt="Facebook">
+                    <img class="social-list__img" src="img/facebook.svg" width="9" height="16" alt="Facebook" loading="lazy">
                   </a>
                 </li >
                 <li class="social-list__item">
                   <a href="#" class="social-list__link">
-                    <img class="social-list__img" src="img/twitter.svg" width="18" height="16" alt="Twitter">
+                    <img class="social-list__img" src="img/twitter.svg" width="18" height="16" alt="Twitter" loading="lazy">
                   </a>
                 </li>
                 <li class="social-list__item">
                   <a href="#" class="social-list__link">
-                    <img class="social-list__img" src="img//instagram.svg" width="18" height="18" alt="Instagram">
+                    <img class="social-list__img" src="img//instagram.svg" width="18" height="18" alt="Instagram" loading="lazy">
                   </a>
                 </li>
               </ul>
             </li>
           </ul>
-        </div>
-        <img class="contacts__img" src="img/map.png" width="670" height="351" alt="Карта с адресом яхт клуба">
+        </address>
+        <img class="contacts__img" src="img/map.png" width="670" height="351" alt="Карта с адресом яхт клуба" loading="lazy">
+        <!-- <iframe class="contacts__img" src="https://yandex.ru/map-widget/v1/?um=constructor%3A75f4795b06687ca40ad5322519b44a0cb2f5126b7c271086fb944fa4bd93b83f&amp;source=constructor" width="670" height="351" frameborder="0"></iframe> -->
       </section>
 
     </main>
@@ -309,10 +319,10 @@
 
     <footer class="footer">
 
-      <div class="footer__container">
+      <div class="footer__container container">
         <div class="footer__policy-wrapper">
           <a class="footer__logo logo" href="#">
-            <img class="logo__img" src="img//logo.svg" width="100" height="106" alt="Логотип яхт клуба">
+            <img class="logo__img" src="img//logo.svg" width="100" height="106" alt="Логотип яхт клуба" loading="lazy">
           </a>
           <p class="footer__policy">
             <a class="footer__policy-link" href="#">Политика конфиденциальности</a>
