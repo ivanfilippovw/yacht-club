@@ -1,3 +1,5 @@
-# htmlacademy_training_1  
-
-https://ivanfilippovw.github.io/htmlacademy_training_1/
+# Проект сайта [Яхт клуба](https://ivanfilippovw.github.io/htmlacademy_training_1/)
+* Ветка _**main**_ содержит только файл readme.
+* Ветка-деплой _**gh-pages**_ дубль ветки _**yacht-club_1**_.
+* Ветка _**yacht-club_1**_ является основной веткой разработки. Содержит всю основную работу и создана лично автором репозитория с нуля. Автор самостоятельно писал html, css, использовал BEM naming, figma и pixel perfect для проверки верстки.
+* Ветка _**yacht-club_js-part**_ содержит лично написаный файл js, остальная часть проекта предоставлена школой в рамках обучения.
